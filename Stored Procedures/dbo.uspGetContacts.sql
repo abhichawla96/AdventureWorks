@@ -6,12 +6,16 @@ GO
 --SET ANSI_NULLS ON|OFF
 --GO
 CREATE PROCEDURE [dbo].[uspGetContacts]
-   
+
 -- WITH ENCRYPTION, RECOMPILE, EXECUTE AS CALLER|SELF|OWNER| 'user_name'
 AS
-    SELECT	FirstName,
-            LastName,
-            MiddleName,
-            Suffix,
-            Title FROM Person.Person
+BEGIN
+    SET NOCOUNT ON;
+    SELECT FirstName,
+           LastName,
+           MiddleName,
+           Suffix,
+           Title
+    FROM Person.Person;
+END;
 GO
