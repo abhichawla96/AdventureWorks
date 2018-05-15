@@ -14,6 +14,7 @@ BEGIN
     SELECT FirstName,
            LastName,
            MiddleName,
+           Suffix,
            Title
     FROM Person.Person;
 END;
