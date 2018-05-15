@@ -1,4 +1,7 @@
 SET IDENTITY_INSERT [Person].[ContactType] ON
+INSERT INTO [Person].[ContactType] ([ContactTypeID], [Name], [ModifiedDate]) VALUES (22, N'DevOps Demo Audience', '2018-05-15 09:25:55.187')
+SET IDENTITY_INSERT [Person].[ContactType] OFF
+SET IDENTITY_INSERT [Person].[ContactType] ON
 INSERT INTO [Person].[ContactType] ([ContactTypeID], [Name], [ModifiedDate]) VALUES (1, N'Accounting Manager', '2008-04-30 00:00:00.000')
 INSERT INTO [Person].[ContactType] ([ContactTypeID], [Name], [ModifiedDate]) VALUES (2, N'Assistant Sales Agent', '2008-04-30 00:00:00.000')
 INSERT INTO [Person].[ContactType] ([ContactTypeID], [Name], [ModifiedDate]) VALUES (3, N'Assistant Sales Representative', '2008-04-30 00:00:00.000')
