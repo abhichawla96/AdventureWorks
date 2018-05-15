@@ -9,6 +9,7 @@ CREATE PROCEDURE [dbo].[uspGetLocations]
 -- WITH ENCRYPTION, RECOMPILE, EXECUTE AS CALLER|SELF|OWNER| 'user_name'
 AS
 BEGIN
+    SET NOCOUNT ON;
     SELECT LocationID,
            Name,
            Availability
