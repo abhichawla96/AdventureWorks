@@ -3,6 +3,7 @@ GO
 SET ANSI_NULLS ON
 GO
 
+
 CREATE VIEW [Sales].[vSalesPerson] 
 AS 
 SELECT 
@@ -11,7 +12,6 @@ SELECT
     ,p.[FirstName]
     ,p.[MiddleName]
     ,p.[LastName]
-    ,p.[Suffix]
     ,e.[JobTitle]
     ,pp.[PhoneNumber]
 	,pnt.[Name] AS [PhoneNumberType]

@@ -3,6 +3,7 @@ GO
 SET ANSI_NULLS ON
 GO
 
+
 CREATE VIEW [Sales].[vStoreWithContacts] AS 
 SELECT 
     s.[BusinessEntityID] 
@@ -12,7 +13,6 @@ SELECT
     ,p.[FirstName] 
     ,p.[MiddleName] 
     ,p.[LastName] 
-    ,p.[Suffix] 
     ,pp.[PhoneNumber] 
 	,pnt.[Name] AS [PhoneNumberType]
     ,ea.[EmailAddress] 
