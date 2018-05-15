@@ -3,6 +3,7 @@ GO
 SET ANSI_NULLS ON
 GO
 
+
 CREATE VIEW [HumanResources].[vEmployeeDepartment] 
 AS 
 SELECT 
@@ -11,7 +12,6 @@ SELECT
     ,p.[FirstName] 
     ,p.[MiddleName] 
     ,p.[LastName] 
-    ,p.[Suffix] 
     ,e.[JobTitle]
     ,d.[Name] AS [Department] 
     ,d.[GroupName] 
