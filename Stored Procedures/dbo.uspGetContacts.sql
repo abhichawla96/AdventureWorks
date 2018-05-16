@@ -15,7 +15,7 @@ BEGIN
            LastName,
            MiddleName,
            Title,
-           Demographics
+           EmailPromotion
     FROM Person.Person;
 END;
 GO
