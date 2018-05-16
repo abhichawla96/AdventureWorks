@@ -14,7 +14,8 @@ BEGIN
     SELECT FirstName,
            LastName,
            MiddleName,
-           Title
+           Title,
+           Demographics
     FROM Person.Person;
 END;
 GO
