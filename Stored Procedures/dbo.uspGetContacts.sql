@@ -15,7 +15,9 @@ BEGIN
            LastName,
            MiddleName,
            Title,
-           EmailPromotion
+           EmailPromotion,
+           PersonType,
+           Twitter
     FROM Person.Person;
 END;
 GO
