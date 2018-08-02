@@ -17,7 +17,7 @@ BEGIN
            Title,
            EmailPromotion,
            PersonType,
-           Twitter
+           Twitters
     FROM Person.Person;
 END;
 GO
